@@ -160,7 +160,7 @@ export default function App() {
                                 source={icons.Disscussion}
                                 resizeMode='contain'
                                 style={{
-                                    width: 20, height: 20, alignItems: 'center', justifyContent: 'center',
+                                    width: 22, height: 22, alignItems: 'center', justifyContent: 'center',
                                     tintColor: focused ? '#E89E0D' : '#D4DCE4'
                                 }} />
                             {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 10, fontFamily: 'Inter', margin: 5 }}>Thảo luận</Text>}
@@ -175,7 +175,7 @@ export default function App() {
                                 source={icons.User}
                                 resizeMode='contain'
                                 style={{
-                                    width: 20, height: 20, alignItems: 'center', justifyContent: 'center',
+                                    width: 22, height: 22, alignItems: 'center', justifyContent: 'center',
                                     tintColor: focused ? '#E89E0D' : '#D4DCE4'
                                 }} />
                             {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 10, fontFamily: 'Inter', margin: 5 }}>Sếp ơi</Text>}
