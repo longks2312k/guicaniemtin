@@ -107,16 +107,23 @@ export default function App() {
     function BossScreen() {
         return (
             <BossStack.Navigator>
-                <BossStack.Screen name="Boss" component={Boss} options={{ headerShown: false }} />
-                <BossStack.Screen name="SepOi"
+                <BossStack.Screen
+                    name="Boss" 
+                    component={Boss} 
+                    options={{ headerShown: false }} 
+                />
+                <BossStack.Screen 
+                    name="SepOi"
                     component={SepOiScreen}
                     options={{ headerShown: false }}
                 />
-                <BossStack.Screen name="DetailShare"
+                <BossStack.Screen 
+                    name="DetailShare"
                     component={DetailShare}
                     options={{ headerShown: false }}
                 />
-                <BossStack.Screen name="DetailsBoss"
+                <BossStack.Screen 
+                    name="DetailsBoss"
                     component={DetailsBoss}
                     options={{ headerShown: false }}
                 />
@@ -133,7 +140,7 @@ export default function App() {
                     headerShown: false,
                     tabBarShowLabel: false,
                     tabBarStyle: {
-                        height: height * 0.07, paddingHorizontal: 12,
+                        height: height * 0.06, paddingHorizontal: 12,
                     }
                 }}
             >
