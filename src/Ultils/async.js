@@ -20,7 +20,7 @@ async function Get(url, param) {
     //console.log('api', url, token, header)
     return instance.get(url, { params: param, headers: header })
         .then((res) => {
-            console.log('call api', res)
+            //console.log('call api', res)
             if (res) {
                 return res;
             }
@@ -80,10 +80,10 @@ async function Put(url, data, param) {
     if (!token) token = ''
     console.log('token', token)
     let header = { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }
-    console.log('api', url, token, header)
+    //console.log('api', url, token, header)
     return instance.put(url, data, { params: param, headers: header })
         .then((res) => {
-            console.log('call api', res)
+            //console.log('call api', res)
             if (res) {
                 return res;
             }

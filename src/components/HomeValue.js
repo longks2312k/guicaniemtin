@@ -61,6 +61,7 @@ function HomeValue() {
       {listValue.map((item, index) => (
           <TouchableOpacity
             style={{marginVertical:8}}
+            key={index}
             onPress={() => {
               setIdx(index);
               setVisible(true);

@@ -39,7 +39,7 @@ export default function BuuDienToiYeu({ navigation }) {
   const callGetHomeHonorsApi = async () => {
     setIsLoading(true)
     let data = await getHomeHonorsApi();
-    console.log('Honors api', data.data.data.list)
+    //console.log('Honors api', data.data.data.list)
     setHonors(data.data.data.list);
     setIsLoading(false)
   };
@@ -49,7 +49,7 @@ export default function BuuDienToiYeu({ navigation }) {
     setIsLoading(true)
     let param = {}
     let data = await getHistory(param)
-    console.log('History api', data.data.data.list)
+    //console.log('History api', data.data.data.list)
     setHistories(data.data.data.list)
     setIsLoading(false)
   };
@@ -58,7 +58,7 @@ export default function BuuDienToiYeu({ navigation }) {
   const callGetPlay = async () => {
     setIsLoading(true)
     let data = await getPlay();
-    console.log('Play api', data.data.data.list)
+    //console.log('Play api', data.data.data.list)
     setPlay(data.data.data.list);
     setIsLoading(false)
   };
@@ -67,7 +67,7 @@ export default function BuuDienToiYeu({ navigation }) {
   const callGetLook = async () => {
     setIsLoading(true)
     let data = await getLook();
-    console.log('Look api', data.data.data.list)
+    //console.log('Look api', data.data.data.list)
     setLook(data.data.data.list);
     setIsLoading(false)
   };

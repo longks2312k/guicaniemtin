@@ -37,13 +37,13 @@ export default function ResourceScreen({navigation}) {
   const callGetGalleries = async () => {
     // call api
     let data = await getGalleriesApi();
-    console.log('Galleries api', data.data.data.list);
+    //console.log('Galleries api', data.data.data.list);
     setGalleries(data.data.data.list);
   };
   const callGetGalleriesVideo = async () => {
     // call api
     let data = await getGalleriesVideoApi();
-    console.log('Galleries api', data.data.data.list);
+    //console.log('Galleries api', data.data.data.list);
     setGalleriesVideo(data.data.data.list);
   };
   useEffect(() => {

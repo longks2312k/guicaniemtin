@@ -27,7 +27,7 @@ export default function ChiTietPhongBanScreen({ navigation, route }) {
   const callGetSharesApi = async () => {
     let param = {}
     let data = await getSharesApi(param);
-    console.log('Shares api:', data.data.data.list);
+    //console.log('Shares api:', data.data.data.list);
     setShares(data.data.data.list);
     setInternetCheck(internetCheck + 1);
   };

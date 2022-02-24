@@ -24,7 +24,7 @@ export default function UI({ navigation }) {
   const [activityNews, setActivityNews] = useState([]);
   const callGetActivitiesApi = async () => {
     let data = await getActivitiesApi();
-    console.log('Activities News api', data.data.data.list)
+    //console.log('Activities News api', data.data.data.list)
     setActivityNews(data.data.data.list);
   }
   useEffect(() => {

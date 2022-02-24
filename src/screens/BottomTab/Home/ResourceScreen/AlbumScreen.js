@@ -34,7 +34,7 @@ export default function AlbumScreen({ navigation }) {
   const callGetGalleries = async () => {
     // call api
     let data = await getGalleriesAllApi();
-    console.log('Galleries api', data.data.data.list)
+    //console.log('Galleries api', data.data.data.list)
     setGalleries(data.data.data.list);
 };
 

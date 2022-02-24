@@ -35,7 +35,7 @@ export default function AnChoi({ navigation }) {
     const callGetPlay = async () => {
         // call api
         let data = await getPlay();
-        console.log('Play api', data.data.data.list)
+        //console.log('Play api', data.data.data.list)
         setPlay(data.data.data.list);
     };
 

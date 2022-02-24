@@ -22,14 +22,14 @@ export default function BossScreen({ navigation, props }) {
         // call api
         let param = {}
         let data = await getBossListApi(param)
-        console.log('boss api', data.data.data.list)
+        //console.log('boss api', data.data.data.list)
         setBossList(data.data.data.list)
     }
     const getLeadList = async () => {
         // call api
         let param = {}
         let data = await getLeadListApi(param)
-        console.log('boss api', data.data.data.list)
+        //console.log('boss api', data.data.data.list)
         setLeadList(data.data.data.list)
     }
     useEffect(() => {

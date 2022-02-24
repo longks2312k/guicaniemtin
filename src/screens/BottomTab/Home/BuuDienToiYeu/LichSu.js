@@ -36,7 +36,7 @@ export default function LichSu({ navigation }) {
         // call api
         let param = {}
         let data = await getHistory(param)
-        console.log('boss api', data.data.data.list)
+        //console.log('boss api', data.data.data.list)
         setHistories(data.data.data.list)
     }
     useEffect(() => {

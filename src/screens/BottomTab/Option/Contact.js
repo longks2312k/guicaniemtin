@@ -32,7 +32,7 @@ export default function Contact({navigation}) {
   const callGetContactsApi = async () => {
     try {
       const response = await getContactsApi();
-      console.log('danh ba', response.data.data.list);
+      //console.log('danh ba', response.data.data.list);
       setContact(response.data.data.list);
     } catch (error) {
       console.error(error);

@@ -39,13 +39,13 @@ export default function HomeScreen({ navigation }) {
   const getHomeSlide = async () => {
     // call api
     let data = await getHomeSlideApi()
-    console.log('HomeSlide api', data.data.data)
+    //console.log('HomeSlide api', data.data.data)
     setSlideHome(data.data.data)
   }
   const getHomeHonors = async () => {
     // call api
     let data = await getHomeHonorsApi()
-    console.log('Honors api', data.data.data.list)
+    //console.log('Honors api', data.data.data.list)
     setHonors(data.data.data.list)
   }
 

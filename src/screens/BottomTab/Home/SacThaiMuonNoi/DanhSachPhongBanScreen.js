@@ -30,7 +30,7 @@ export default function DanhSachPhongBanScreen({ navigation }) {
 
   const callGetUnitsApi = async () => {
     const data = await getUnitsApi();
-    console.log(data.data.data.list);
+    //console.log(data.data.data.list);
     setPostOffice(data.data.data.list);
   }
   useEffect(() => {

@@ -36,7 +36,7 @@ export default function TonVinh({ navigation }) {
     // call api
     let param = {}
     let data = await getHonorsApi(param)
-    console.log('Honors api', data.data.data.list)
+    //console.log('Honors api', data.data.data.list)
     setHonors(data.data.data.list)
   }
 

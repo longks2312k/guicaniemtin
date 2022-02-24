@@ -34,7 +34,7 @@ export default function NgoNghieng({ navigation }) {
     // call api ngo nghieng
     const callGetLook = async () => {
         let data = await getLook();
-        console.log('Look api', data.data.data.list)
+        //console.log('Look api', data.data.data.list)
         setLook(data.data.data.list);
     };
     useEffect(() => {

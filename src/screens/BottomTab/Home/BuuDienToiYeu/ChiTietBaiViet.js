@@ -7,7 +7,7 @@ import HTMLView from 'react-native-htmlview';
 
 export default function ChiTietBaiViet({ navigation, route }) {
   const { data } = route.params;
-  console.log('t', data)
+  //console.log('t', data)
   return (
     <ScrollView style={styles.container}>
       <View style={{ marginBottom: 26, justifyContent: 'center', alignItems: 'center' }}>
