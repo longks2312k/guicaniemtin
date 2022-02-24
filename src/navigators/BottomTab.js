@@ -140,60 +140,60 @@ export default function App() {
                 <Tab.Screen name="Trang chủ" component={Home} options={{
                     tabBarIcon: ({ focused }) => (
                         <View
-                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.05, width: width * 0.24 }}>
+                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.04, width: width * 0.24 }}>
                             <Image
                                 source={icons.Home}
                                 resizeMode='contain'
                                 style={{
-                                    width: 24, height: 24, alignItems: 'center', justifyContent: 'center',
+                                    width: 20, height: 20, alignItems: 'center', justifyContent: 'center',
                                     tintColor: focused ? '#E89E0D' : '#D4DCE4'
                                 }} />
-                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 12, fontFamily: 'Inter', margin: 5 }}>Trang chủ</Text>}
+                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 10, fontFamily: 'Inter', margin: 5 }}>Trang chủ</Text>}
                         </View>
                     )
                 }} />
                 <Tab.Screen name="Thảo luận" component={DiscussionScreen} options={{
                     tabBarIcon: ({ focused }) => (
                         <View
-                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.05, width: width * 0.23 }}>
+                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.04, width: width * 0.23 }}>
                             <Image
                                 source={icons.Disscussion}
                                 resizeMode='contain'
                                 style={{
-                                    width: 24, height: 24, alignItems: 'center', justifyContent: 'center',
+                                    width: 20, height: 20, alignItems: 'center', justifyContent: 'center',
                                     tintColor: focused ? '#E89E0D' : '#D4DCE4'
                                 }} />
-                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 12, fontFamily: 'Inter', margin: 5 }}>Thảo luận</Text>}
+                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 10, fontFamily: 'Inter', margin: 5 }}>Thảo luận</Text>}
                         </View>
                     )
                 }} />
                 <Tab.Screen name="Sếp ơi" component={BossScreen} options={{
                     tabBarIcon: ({ focused }) => (
                         <View
-                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.05, width: width * 0.22 }}>
+                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.04, width: width * 0.22 }}>
                             <Image
                                 source={icons.User}
                                 resizeMode='contain'
                                 style={{
-                                    width: 24, height: 24, alignItems: 'center', justifyContent: 'center',
+                                    width: 20, height: 20, alignItems: 'center', justifyContent: 'center',
                                     tintColor: focused ? '#E89E0D' : '#D4DCE4'
                                 }} />
-                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 12, fontFamily: 'Inter', margin: 5 }}>Sếp ơi</Text>}
+                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 10, fontFamily: 'Inter', margin: 5 }}>Sếp ơi</Text>}
                         </View>
                     )
                 }} />
                 <Tab.Screen name="Tùy chọn" component={OptionScreen} options={{
                     tabBarIcon: ({ focused }) => (
                         <View
-                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.05, width: width * 0.24 }}>
+                            style={{ backgroundColor: focused ? '#FFE8D1' : '#fff', justifyContent: 'center', flexDirection: 'row', alignItems: 'center', borderRadius: 20, height: height * 0.04, width: width * 0.24 }}>
                             <Image
                                 source={icons.Category}
                                 resizeMode='contain'
                                 style={{
-                                    width: 24, height: 24, alignItems: 'center', justifyContent: 'center',
+                                    width: 20, height: 20, alignItems: 'center', justifyContent: 'center',
                                     tintColor: focused ? '#E89E0D' : '#D4DCE4'
                                 }} />
-                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 12, fontFamily: 'Inter', margin: 5 }}>Tùy chọn</Text>}
+                            {focused && <Text style={{ color: focused ? '#E89E0D' : '#D4DCE4', fontSize: 10, fontFamily: 'Inter', margin: 5 }}>Tùy chọn</Text>}
                         </View>
                     )
                 }} />
